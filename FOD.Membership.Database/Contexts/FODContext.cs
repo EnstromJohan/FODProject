@@ -32,7 +32,7 @@
                       .ToTable("FilmGenres");
             });
 
-            /* Seed Data */
+            
             modelBuilder.Entity<Director>().HasData(
                 new { Id = 1, Name = "Richard Schenkamn" },
                 new { Id = 2, Name = "Christopher Nolan" },
