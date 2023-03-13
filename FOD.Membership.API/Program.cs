@@ -1,6 +1,7 @@
 using FOD.Common.DTOs;
 using FOD.Membership.Database.Contexts;
 using FOD.Membership.Database.Entities;
+using FOD.Membership.Database.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,6 +24,8 @@ builder.Services.AddCors(policy => {
     .AllowAnyMethod()
     );
 });
+
+builder.Services.AddScoped<IDbService, DbService>();
 
 ConfigAutoMapper();
 
