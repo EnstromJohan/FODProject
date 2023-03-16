@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOD.Admin.UI", "FOD.Admin.UI\FOD.Admin.UI.csproj", "{71665DDA-5897-4586-873C-299A37F766AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOD.Admin.UI", "FOD.Admin.UI\FOD.Admin.UI.csproj", "{71665DDA-5897-4586-873C-299A37F766AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOD.Common", "FOD.Common\FOD.Common.csproj", "{200EC45C-281B-4994-ADEA-F4C2784D1C4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOD.Common", "FOD.Common\FOD.Common.csproj", "{200EC45C-281B-4994-ADEA-F4C2784D1C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOD.Membership.Database", "FOD.Membership.Database\FOD.Membership.Database.csproj", "{5E8D2790-A049-4566-9479-448CB34DBB99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOD.Membership.Database", "FOD.Membership.Database\FOD.Membership.Database.csproj", "{5E8D2790-A049-4566-9479-448CB34DBB99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOD.Membership.API", "FOD.Membership.API\FOD.Membership.API.csproj", "{2D25721B-EEE5-4343-B522-1D18DB761E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FOD.Membership.API", "FOD.Membership.API\FOD.Membership.API.csproj", "{2D25721B-EEE5-4343-B522-1D18DB761E21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -17,7 +17,7 @@
         {
             try
             {
-                
+                _db.Include<Film>();
                 var film = await _db.GetAsync<Film, FilmDTO>();
                 return Results.Ok(film);
             }
